@@ -85,3 +85,43 @@ nav{
     justify-content: center;
     align-items: flex-end;
 }
+/* ==========
+Womens cloth part
+============= */
+.jacket{
+    height: 560px;
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.jacket-photo{
+    background-color: #f1f1f1;
+    height: 310px; 
+    width: 260px;
+    border-radius: 15px;
+    
+}
+.jacket-photo img{
+    height: 300px;
+    width: 250px;
+    padding: 10px 10px;
+    border: 1px solid #f1f1f1 ;
+    margin: 5px 5px;
+    border-radius: 15px;
+}
+.jacket-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.jacket-descriptionl p{
+    text-align: justify;
+}
+.jacket-price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
