@@ -59,6 +59,12 @@ nav{
     border-radius: 8px;
     margin: 15px 0;
 }
+.btn-style1:hover{
+    color: black;
+    background-color: rgba(38, 192, 179, 0.678);
+    cursor: pointer;
+
+}
 .banner{
     height: calc(100vh - 100ox);
     display: grid;
@@ -88,13 +94,33 @@ nav{
 /* ==========
 Womens cloth part
 ============= */
-.jacket{
+.container1{
+    margin: 50px auto;
+    padding: 0 30px; 
+    width: 1200px;
+}
+.container1 h1{
+    display: flex;
+    justify-content: center;
+}
+.mens{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.cloth{
     height: 560px;
-    width: 295px;
+    width:340px ;
+    
+}
+.jacket{
+    height: 530px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 35px 25px;
+    border-radius: 20px;
 }
 .jacket-photo{
     background-color: #f1f1f1;
@@ -124,4 +150,50 @@ Womens cloth part
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+}
+.shortcuut{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    width: 480px;
+    height: 135px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.shortcuut img{
+    width: 78px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-side img{
+    height: 355px;
+    width: 600px;
+}
+.st{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+footer{
+    height: 150px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-end;
 }
